@@ -1,0 +1,6 @@
+mkdir <你的專案名稱>
+cd <你的專案名稱>
+git init
+heroku login
+heroku create <你的專案名稱>
+heroku buildpacks:set heroku/nodejs
